@@ -20,6 +20,12 @@ Browser
 var ZimNews = require('zimnews-api'),
     zn = new ZimNews("api_key");
 ```
+### ES6 Import
+
+```
+import ZimNews from 'zimnews-api'
+let zm = new ZimNews("api_key");
+```
 
 You can get your API Key from [the documentation site](https://zimnews-api.firebaseapp.com/#/api-key).
 
