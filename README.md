@@ -6,7 +6,7 @@ Official documentation available at <https://zimnews-api.firebaseapp.com>
 
 Node.js
 ```
-npm i -g zimnews-api
+npm i --save zimnews-api
 ```
 
 Browser
