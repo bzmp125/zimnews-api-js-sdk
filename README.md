@@ -11,7 +11,7 @@ npm i -g zimnews-api
 
 Browser
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/zimnewsapi/index.js">
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/zimnews-api/index.js">
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ var ZimNews = require('zimnews-api'),
 ```
 ### ES6 Import
 
-```
+```javascript
 import ZimNews from 'zimnews-api'
 let zm = new ZimNews("api_key");
 ```
