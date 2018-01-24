@@ -65,9 +65,9 @@ Promise which returns an array of Categories.
 ### With Promises
 
 ```javascript
-    zm.getNews({limit:10,category:'Entertainment'}).then(stories=>{
-        console.log(stories);
-    }).catch(e=>{
-        console.log(e);
-    })
+zm.getNews({limit:10,category:'Entertainment'}).then(stories=>{
+    console.log(stories);
+}).catch(e=>{
+    console.log(e);
+})
 ```
