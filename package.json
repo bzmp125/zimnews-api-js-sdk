@@ -1,0 +1,34 @@
+{
+  "name": "zimnews-api-js-sdk",
+  "version": "0.0.1",
+  "description": "The Javascript SDK for the ZimNews API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "transpile": "babel './' --out-dir '../' --presets=es2015 --copy-files --ignore 'node_modules'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bzmp125/zimnews-api.git"
+  },
+  "keywords": [
+    "zimnews",
+    "api",
+    "js-sdk",
+    "javascript",
+    "news",
+    "news-api"
+  ],
+  "author": "Bakani Pilime <bzmpilime@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bzmp125/zimnews-api/issues"
+  },
+  "homepage": "https://zimnews-api.firebaseapp.com",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-runtime": "^6.26.0",
+    "rimraf": "^2.6.2"
+  }
+}
